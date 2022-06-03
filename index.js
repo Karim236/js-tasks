@@ -8,6 +8,10 @@ const summary = (a, b) =>{
     return c;
 }
 
-helloWorld()
+function devFunc(){
+    console.log("Dev function!")
+}
 
+helloWorld()
 summary(50,6)
+devFunc()
